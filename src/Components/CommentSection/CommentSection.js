@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import PostComment from '../PostComment/PostComment';
 
+
 const CommentSection = () => {
     const { postId } = useParams();
     const [comment, setComment] = useState([]);
@@ -13,10 +14,11 @@ const CommentSection = () => {
     }, [])
     return (
         <div>
-            <h3>Comment:</h3>
+            <h3>Comment : </h3>
             {
-              comment.map(comment => <PostComment comment={comment}></PostComment>)
-      }
+                comment.map(comment => <PostComment comment={comment}></PostComment>)
+
+            }
         </div>
     );
 };

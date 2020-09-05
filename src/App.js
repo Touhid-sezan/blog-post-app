@@ -8,12 +8,8 @@ import {
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
 import PostDetail from './Components/PostDetail/PostDetail';
-import PostComment from './Components/PostComment/PostComment';
-
-
 
 function App() {
-  
   return (
     <Router>
       <Switch>
