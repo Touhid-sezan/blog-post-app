@@ -1,5 +1,5 @@
 import React from 'react';
-import './PostComment.css'
+import './PostComment.css';
 import Photo from '../Photo/Photo';
 
 const PostComment = (props) => {

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { useParams } from 'react-router-dom';
-import './PostDetail.css';
 import { Card, CardActionArea, CardContent, Typography} from '@material-ui/core';
 import CommentSection from '../CommentSection/CommentSection';
 

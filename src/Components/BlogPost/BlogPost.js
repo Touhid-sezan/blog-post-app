@@ -6,16 +6,13 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import './BlogPost.css';
 import { Link } from 'react-router-dom';
+import './BlogPost.css';
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 800,
-  },
-  media: {
-    height: 140,
-  },
+  }
 });
 
 export default function MediaCard(props) {
